@@ -8,11 +8,13 @@ int main(void)
 {
 	char alphabet = 'a', caps_alphabet = 'A';
 
-	while (alphabet <= 'z' && caps_alphabet <= 'Z')
+	while (alphabet <= 'z')
 	{
 		putchar (alphabet);
 		alphabet++;
-
+	}
+	while (caps_alphabet <= 'Z')
+	{
 		putchar (caps_alphabet);
 		caps_alphabet++;
 	}
